@@ -43,7 +43,7 @@ class Orders {
 	 * Handle WP actions and filters.
 	 */
 	private function do_hooks() {
-		if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
+		if ( class_exists( 'woocommerce' ) ) {
 			add_action( 'woocommerce_order_status_changed', array( $this, 'trustpilot_orderStatusChange' ) );
 			add_action( 'woocommerce_thankyou', array( $this, 'trustpilot_thankYouPageLoaded' ) );
 		}
