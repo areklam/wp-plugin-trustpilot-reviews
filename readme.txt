@@ -82,6 +82,17 @@ There are a number of ways to get in touch with the Support Team at Trustpilot -
 
 == Changelog ==
 
+= 2.5.914 - 07/12/2022 =
+
+* Fixed uninstall issue. 
+* Security improvements.
+
+= 2.5.901 - 02/15/2022 =
+
+* Dynamic Trustbox script. 
+* Security improvements. Check permissions before updating settings.
+* Cleanup all the settings on plugin uninstall. 
+
 = 2.5.888 - 07/09/2021 =
 
 * PHP 8 support
